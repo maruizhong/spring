@@ -2,6 +2,8 @@ package com.sinosoft.lcn.service.impl;
 
 import com.codingapi.tx.netty.service.TxManagerHttpRequestService;
 import com.lorne.core.framework.utils.http.HttpUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 /**
@@ -10,20 +12,20 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class TxManagerHttpRequestServiceImpl implements TxManagerHttpRequestService{
-
+    private Logger logger = LoggerFactory.getLogger(TxManagerHttpRequestServiceImpl.class);
     @Override
     public String httpGet(String url) {
-        System.out.println("httpGet-start");
+        logger.info("httpGet-start");
         String res = HttpUtils.get(url);
-        System.out.println("httpGet-end");
+        logger.info("httpGet-end");
         return res;
     }
 
     @Override
     public String httpPost(String url, String params) {
-        System.out.println("httpPost-start");
+        logger.info("httpPost-start");
         String res = HttpUtils.post(url,params);
-        System.out.println("httpPost-end");
+        logger.info("httpPost-end");
         return res;
     }
 }

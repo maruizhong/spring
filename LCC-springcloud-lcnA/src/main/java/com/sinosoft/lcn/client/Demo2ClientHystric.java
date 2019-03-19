@@ -1,6 +1,8 @@
 package com.sinosoft.lcn.client;
 
 import com.sinosoft.lcn.entity.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
@@ -10,17 +12,18 @@ import java.util.List;
  */
 @Component
 public class Demo2ClientHystric implements Demo2Client {
+    private Logger logger = LoggerFactory.getLogger(Demo2ClientHystric.class);
 
 
     @Override
     public List<Test> list() {
-        System.out.println("进入断路器-list。。。");
+        logger.info("进入断路器-list。。。");
         throw new RuntimeException("list 保存失败.");
     }
 
     @Override
     public int save() {
-        System.out.println("进入断路器-save。。。");
+        logger.info("进入断路器-save。。。");
         throw new RuntimeException("save 保存失败.");
     }
 }
