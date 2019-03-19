@@ -29,6 +29,7 @@
         <module name="Eureka-Server" />
         <module name="ICC-springBoot-Elasticsearch" />
         <module name="ICC-springcloud-lcnB" />
+        <module name="ICC-springcloud-lcnC" />
         <module name="LCC-springcloud-lcnA" />
         <module name="Spring-ElasticSearch" />
       </profile>
@@ -41,6 +42,7 @@
       <module name="ICC-springBoot-Elasticsearch" target="1.7" />
       <module name="ICC-springcloud-lcn" target="1.7" />
       <module name="ICC-springcloud-lcnB" target="1.7" />
+      <module name="ICC-springcloud-lcnC" target="1.7" />
       <module name="LCC-springcloud-lcnA" target="1.7" />
       <module name="study-springcloud" target="1.7" />
     </bytecodeTargetLevel>
