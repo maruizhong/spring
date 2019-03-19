@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Eureka-Server/Eureka-Server.iml" filepath="$PROJECT_DIR$/Eureka-Server/Eureka-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Eureka-client/Eureka-client.iml" filepath="$PROJECT_DIR$/Eureka-client/Eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ICC-springBoot-Elasticsearch/ICC-springBoot-Elasticsearch.iml" filepath="$PROJECT_DIR$/ICC-springBoot-Elasticsearch/ICC-springBoot-Elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ICC-springcloud-lcnB/ICC-springcloud-lcnB.iml" filepath="$PROJECT_DIR$/ICC-springcloud-lcnB/ICC-springcloud-lcnB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LCC-springcloud-lcnA/LCC-springcloud-lcnA.iml" filepath="$PROJECT_DIR$/LCC-springcloud-lcnA/LCC-springcloud-lcnA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study-springcloud.iml" filepath="$PROJECT_DIR$/study-springcloud.iml" />
+    </modules>
+  </component>
+</project>

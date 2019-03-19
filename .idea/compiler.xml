@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="Eureka-client" />
+        <module name="Eureka-Server" />
+        <module name="ICC-springBoot-Elasticsearch" />
+        <module name="ICC-springcloud-lcnB" />
+        <module name="LCC-springcloud-lcnA" />
+        <module name="Spring-ElasticSearch" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-client" target="1.7" />
+      <module name="config-server" target="1.7" />
+      <module name="Eureka-client" target="1.7" />
+      <module name="Eureka-Server" target="1.8" />
+      <module name="ICC-springBoot-Elasticsearch" target="1.7" />
+      <module name="ICC-springcloud-lcn" target="1.7" />
+      <module name="ICC-springcloud-lcnB" target="1.7" />
+      <module name="LCC-springcloud-lcnA" target="1.7" />
+      <module name="study-springcloud" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

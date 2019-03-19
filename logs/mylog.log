@@ -1,0 +1,26 @@
+2019-03-14 13:49:12.139 [restartedMain] INFO  com.mrz.springboot.elasticsearch.SpringbootElasticsearchApplication- Starting SpringbootElasticsearchApplication on USER-20151011JA with PID 8164 (E:\data\study-springcloud\springboot-elasticsearch\target\classes started by Administrator in E:\data\study-springcloud)
+2019-03-14 13:49:12.142 [restartedMain] INFO  com.mrz.springboot.elasticsearch.SpringbootElasticsearchApplication- No active profile set, falling back to default profiles: default
+2019-03-14 13:49:12.262 [restartedMain] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6a8a44a1: startup date [Thu Mar 14 13:49:12 CST 2019]; root of context hierarchy
+2019-03-14 13:49:19.340 [restartedMain] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$$EnhancerBySpringCGLIB$$6618a205]: Constructor threw exception; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration': Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties': Could not bind properties to 'ResourceProperties' : prefix=spring.resources, ignoreInvalidFields=false, ignoreUnknownFields=false; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.resources' to org.springframework.boot.autoconfigure.web.ResourceProperties
+2019-03-14 13:49:19.354 [restartedMain] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-14 13:49:19.367 [restartedMain] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target [Bindable@4fea272e type = org.springframework.boot.autoconfigure.web.ResourceProperties, value = 'provided', annotations = array<Annotation>[@org.springframework.boot.context.properties.ConfigurationProperties(prefix=spring.resources, value=spring.resources, ignoreUnknownFields=false, ignoreInvalidFields=false)]] failed:
+
+    Property: spring.resources.cache-period
+    Value: 0
+    Origin: "spring.resources.cache-period" from property source "refresh"
+    Reason: The elements [spring.resources.cache-period] were left unbound.
+
+Action:
+
+Update your application's configuration
+
